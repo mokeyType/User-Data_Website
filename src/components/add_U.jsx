@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import './add_U.css'
+import add_image from  '/src/assets/img.png'
 import Data from '/src/components/data.jsx'
 const add_U = ({list,setUser}) => {
   const [name, setName] = useState('');
@@ -20,7 +21,7 @@ const add_U = ({list,setUser}) => {
          </div>
       </div>
       <div className="submit">
-           <img className="sub-img"src="src/assets/img.png" alt="" />
+           <img className="sub-img"src={add_image} alt="" />
            <button
           className='sub_b'
           onClick={() => {
