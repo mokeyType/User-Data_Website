@@ -1,0 +1,11 @@
+@import "tailwindcss";
+#root{
+  @apply h-[100vh] w-[100vw]
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Oswald", sans-serif; */
+  font-family:  "Bebas Neue", sans-serif;
+}

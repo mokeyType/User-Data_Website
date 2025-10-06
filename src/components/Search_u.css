@@ -1,0 +1,22 @@
+@import "tailwindcss";
+.main{
+    @apply w-[100%] h-[100%]
+}
+.search{
+    @apply w-[80%] h-[20%]   mx-auto p-[2rem] flex flex-col 
+}
+.bar{
+    @apply flex gap-[0rem] w-[70%]  h-[100%] mx-auto
+}
+#key{
+    @apply w-[80%]  rounded-l-[80px] p-[1rem] outline-none 
+}
+.search_btn{
+    @apply w-[20%] p-[1rem] bg-[rgb(89,89,255)] text-white rounded-r-[80px] flex justify-center items-center
+}
+#key{
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5),-2px -2px 3px rgb(216, 215, 215) ;
+}
+.result{
+    @apply  w-[80%] h-[80%] mx-auto  inset-shadow-[2px_2px_5px_rgba(0,0,0,0.5),-2px_-2px_3px_rgb(216,215,215)] rounded-[20px] flex flex-col gap-[0.5rem]
+}

@@ -1,0 +1,28 @@
+@import "tailwindcss";
+.au{
+    @apply w-[100%] h-[100%] flex
+}
+.info{
+    @apply h-[100%] w-[50%]  flex flex-col p-[2rem] gap-[5rem]
+}
+.help{
+    @apply text-[3rem] relative md:left-[9rem]  left-[3rem] font-bold
+}
+.submit{
+    @apply h-[100%] w-[50%]  flex-col flex gap-[1rem] justify-center items-center 
+}
+.details{
+    @apply flex flex-col gap-[4rem]  
+}
+#detail{
+    @apply w-[80%] h-[100%] rounded-[80px] p-[1rem] outline-none inset-shadow-[2px_2px_5px_rgba(0,0,0,0.5),-2px_-2px_3px_rgb(216,215,215)] self-end
+}
+.sub-img{
+    @apply md:h-[80%] md:w-[50%]  self-center hidden md:block
+}
+.sub_b{
+    @apply bg-[rgb(89,89,255)] text-white p-[1rem] md:w-[20%] md:h-[8%] w-[50%] h-[10%] self-center rounded-[30px]  flex justify-center items-center
+}
+.sub_b:hover{
+    @apply bg-[rgb(55,55,155)] cursor-pointer
+}

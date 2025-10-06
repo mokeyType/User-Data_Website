@@ -1,0 +1,7 @@
+@import "tailwindcss";
+.P1{
+    @apply md:h-[100%] md:w-[80%]  flex md:justify-center items-center justify-end h-[90%] w-[100%]
+}
+.P2{
+     @apply md:h-[100%] md:w-[80%]  md:flex md:justify-center items-center justify-end h-[90%] w-[100%] 
+}

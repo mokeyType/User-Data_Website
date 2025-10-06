@@ -1,0 +1,38 @@
+@import "tailwindcss";
+.t{
+    @apply flex flex-col justify-center items-start md:w-[100%] md:gap-[2rem]  h-full w-[90%] md:items-center 
+}
+.heading{
+    @apply flex flex-col gap-[3rem] 
+}
+.h{
+    @apply font-bold md:text-[5rem]   animate-[show_2s_ease_0s_1_alternate_forwards] opacity-0 text-[4rem]
+}
+.m{
+    @apply text-[rgb(89,89,255)] relative bottom-[3rem] font-bold md:text-[5rem] text-[4rem]   animate-[show_2s_ease_0s_1_alternate_forwards] opacity-0
+}
+.s-h{
+    @apply relative bottom-[4rem] animate-pulse 
+}
+
+.btn{
+     @apply flex gap-[3rem] w-full  md:justify-center justify-around
+}
+.btn1 ,.btn2{
+    @apply p-[1rem] bg-[rgb(89,89,255)] text-white rounded-[100px] flex justify-center items-center md:h-[80%] md:w-[20%] w-[80%] h-[100%]
+}
+.btn1:hover ,.btn2:hover{
+    @apply hover:bg-[rgb(61,61,170)] scale-[1.05] transition-all duration-[0.5s]
+}
+@keyframes show {
+        0% {
+            opacity: 0;
+            transform : translateX(-100%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+
