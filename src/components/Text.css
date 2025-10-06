@@ -1,6 +1,6 @@
 @import "tailwindcss";
 .t{
-    @apply flex flex-col justify-center items-start md:w-[100%] md:gap-[2rem]  h-full w-[90%] md:items-center 
+    @apply flex flex-col justify-center items-start md:w-[100%] md:gap-[1rem]  h-full w-[90%] md:items-center 
 }
 .heading{
     @apply flex flex-col gap-[3rem] 
